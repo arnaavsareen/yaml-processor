@@ -1,0 +1,15 @@
+'1234':
+  vsphere_host: 192.168.1.1:8443
+  vsphere_user: updateduser@vsphere.local
+  vsphere_password: NewPassword123
+  ignore_ssl: true
+  specs_size: 5000
+  fetch_custom_attributes: true
+  fetch_tags: false
+  fetch_alarms: false
+  collect_only:
+    vms: true
+    vmguests: true
+    datastores: true
+    hosts: true
+    snapshots: true

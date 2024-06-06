@@ -1,0 +1,15 @@
+'1234':
+  vsphere_host: "localhost:8443"
+  vsphere_user: "administrator@vsphere.local"
+  vsphere_password: "H@ywh@t$up88&"
+  ignore_ssl: True
+  specs_size: 5000
+  fetch_custom_attributes: True
+  fetch_tags: False
+  fetch_alarms: False
+  collect_only:
+    vms: True
+    vmguests: True
+    datastores: True
+    hosts: True
+    snapshots: True
